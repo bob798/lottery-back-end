@@ -3,9 +3,9 @@ spring:
         type: com.alibaba.druid.pool.DruidDataSource
         druid:
             driver-class-name: com.mysql.cj.jdbc.Driver
-            url: jdbc:mysql://localhost:23345/test?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
-            username: root
-            password: DECgqWsu1bjC
+            url: jdbc:mysql://121.196.153.6:2334/lottery?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+            username: lottery
+            password: s12yLcigDhNt
             initial-size: 10
             max-active: 100
             min-idle: 10
