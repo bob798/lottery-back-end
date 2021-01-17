@@ -22,7 +22,7 @@
 
 **项目结构** 
 ```
-renren-fast
+lottery-back-end
 ├─db  项目SQL语句
 │
 ├─common 公共模块

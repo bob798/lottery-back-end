@@ -56,6 +56,10 @@ public class OAuth2Filter extends AuthenticatingFilter {
     protected boolean onAccessDenied(ServletRequest request, ServletResponse response) throws Exception {
         //获取请求token，如果token不存在，直接返回401
         String token = getRequestToken((HttpServletRequest) request);
+//        if (((HttpServletRequest) request).getRequestURI().contains("/lottery-api/company/info")) {
+//            return executeLogin(request, response);
+//        }
+
         if(StringUtils.isBlank(token)){
             HttpServletResponse httpResponse = (HttpServletResponse) response;
             httpResponse.setHeader("Access-Control-Allow-Credentials", "true");

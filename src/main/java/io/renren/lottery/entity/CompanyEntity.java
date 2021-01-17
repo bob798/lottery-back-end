@@ -30,6 +30,7 @@ public class CompanyEntity implements Serializable {
 	 * 
 	 */
 	private String name;
+	private String title;
 	/**
 	 * 
 	 */

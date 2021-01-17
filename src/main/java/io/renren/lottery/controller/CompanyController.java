@@ -39,8 +39,7 @@ public class CompanyController {
     /**
      * 信息
      */
-    @RequestMapping("/info/{id}")
-    @RequiresPermissions("sys:company:info")
+    @GetMapping("/info/{id}")
     public R info(@PathVariable("id") Integer id){
 		CompanyEntity company = companyService.getById(id);
 

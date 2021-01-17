@@ -10,7 +10,10 @@ package io.renren.modules.app.entity;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -21,7 +24,9 @@ import java.util.Date;
  *
  * @author Mark sunlightcs@gmail.com
  */
+
 @Data
+
 @TableName("tb_user")
 public class UserEntity implements Serializable {
 	private static final long serialVersionUID = 1L;

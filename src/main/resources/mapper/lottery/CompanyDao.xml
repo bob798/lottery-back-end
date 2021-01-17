@@ -7,6 +7,7 @@
     <resultMap type="io.renren.lottery.entity.CompanyEntity" id="companyMap">
         <result property="id" column="id"/>
         <result property="name" column="name"/>
+        <result property="title" column="title"/>
         <result property="personTotal" column="person_total"/>
         <result property="qrcodeUrl" column="qrcode_url"/>
         <result property="backgroudImgUrl" column="backgroud_img_url"/>
